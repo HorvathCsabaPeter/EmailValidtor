@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="fejlec-szoveg">
+        <p class="szoveg1"><b>Horváth Csaba Péter</b></p>
+        <p class="szoveg2">Junior Webfejlesztő</p>
+        
+            
+            
+        
+    </div>
+
+    <section class="navbar">
+        <nav><a href="#bemutatkozas">Bemutatkozás</a></nav>
+        <nav><a href="#keszsegeim">Készségeim</a></nav>
+        <nav><a href="#projektek">Projektek</a></nav>
+        <nav><a href="#kapcsolat">Kapcsolat</a></nav>
+       
+        
+    </section>
+</header>
+
+<main>
+
+    <section class="elsobox" id="bemutatkozas">
+        <img class="kep1" src="./img/en.png" alt="Portré">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Impedit, corporis modi ipsam adipisci necessitatibus pariatur
+            deleniti, minus non quis reiciendis a sed provident laborum?
+            Ab consectetur tempora neque dolorem eum!
+        </p>
+    </section>
+
+    <section id="keszsegeim">
+        <p class="kezsegim"><b>Készségeim</b></p>
+
+        <div class="keszseg-grid">
+            <img src="./img/html.png" alt="HTML">
+            <img src="./img/css.png" alt="CSS">
+            <img src="./img/java.png" alt="JavaScript">
+            <img src="./img/git.png" alt="Git">
+            <img src="./img/sql.png" alt="Python">
+            <img src="./img/sql2.png" alt="SQL">
+        </div>
+    </section>
+
+    <section id="projektek">
+        <p class="projektek"><b>Projektek</b></p>
+
+        <div class="projekt-grid">
+            <div class="projekt">
+                <img src="./img/barkacsbolt.png" alt="Barkácsbolt">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    In officia ducimus sapiente voluptates!
+                </p>
+            </div>
+
+            <div class="projekt">
+                <img src="./img/gamelandia.png" alt="Gamelandia">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    In officia ducimus sapiente voluptates!
+                </p>
+            </div>
+
+            <div class="projekt">
+                <img src="./img/szamologep.png" alt="Számológép">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    In officia ducimus sapiente voluptates!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="kapcsolat" id="kapcsolat">
+        <p class="kapcs"><b>Kapcsolat</b></p>
+        <p>Email: horvathcsabapeter@turr.hu</p>
+        <p>Telefonszám: 36 20 290 0976</p>
+        <p>Lakhely: Baja</p>
+    </section>
+
+</main>
+<div class="regiszt">
+
+
+        <label id="email">Email: </label>
+        <input type="text" id="email" placeholder="csaba911@gmail.com">
+
+         <label>Jelszó: </label>
+        <input type="text" id="jelszo" placeholder="min 8 max 32 karakter">
+
+         <label>Jelszó újra: </label>
+        <input type="text" id="jelszo" placeholder="">
+
+
+       <button onclick="ellenorzesEmail()">Regisztráció</button>
+
+    </div>
+<footer>
+    <p class="footer1">© 2026 Horváth Csaba Péter</p>
+    <p>Szoftverfejlesztő és tesztelő</p>
+</footer>
+ <script src="valid.js"></script>
+</body>
+</html>
